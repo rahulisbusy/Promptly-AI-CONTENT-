@@ -48,7 +48,9 @@ function UsageToken() {
            </div>
            <h2  className='font-medium text-sm mt-2'>{totalusage}/{usersubscription ? "50,000":"5000"} credits used</h2>
            {
-            !usersubscription &&  <Button variant='secondary' className='w-full mt-2 text-primary hover:cursor-pointer' >Upgrade plan 💎</Button>
+            !usersubscription &&  <Button
+            onClick={()=>window.location.href="/dashboard/billing"}
+            variant='secondary' className='w-full mt-2 text-primary hover:cursor-pointer' >Upgrade plan 💎</Button>
            }
           
 
