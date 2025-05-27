@@ -5,7 +5,7 @@ function Header() {
   return (
     <div className='flex justify-between items-center p-2 shadow-lg border bg-white'>
       <div>
-        <form className="flex items-center max-w-sm mx-auto">
+        {/* <form className="flex items-center max-w-sm mx-auto">
           <label htmlFor="simple-search" className="sr-only">Search</label>
           <div className="relative w-full">
             
@@ -38,7 +38,7 @@ function Header() {
             </svg>
             <span className="sr-only">Search</span>
           </button>
-        </form>
+        </form> */}
       </div>
       <div className='flex gap-5 items-center'>
         <Link href={"/dashboard/billing"} >
